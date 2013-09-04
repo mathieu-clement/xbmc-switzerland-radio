@@ -1,0 +1,11 @@
+*.pyo
+*.pyc
+*.zip
+__pycache__
+.idea
+*.iml
+*.ipk
+*.swp
+*~
+dist
+build

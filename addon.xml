@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+        id="plugin.audio.switzerland-radio"
+        version="0.0.1"
+        name="Radio stations of Switzerland"
+        provider-name="Mathieu CLÉMENT">
+
+    <requires>
+        <import addon="xbmc.python"     version="2.1.0"/>
+        <!--
+        <import addon="xbmc.gui"        version="4.0.0"/>
+        <import addon="xbmc.json"       version="6.0.0"/>
+        <import addon="xbmc.metadata"   version="2.1.0"/>
+        <import addon="xbmc.addon"      version="12.0.0"/>
+        -->
+    </requires>
+
+    <!--
+    <extension point="xbmc.addon.video"/>
+    <extension point="xbmc.addon.audio"/>
+    -->
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Listen to 40+ radio stations broadcasted in Switzerland</summary>
+        <summary lang="fr">Écoutez plus de 40 stations de radio suisses</summary>
+        <summary lang="de">Mehr als 40 Radio von der Schweiz.</summary>
+
+        <platform>all</platform>
+        <language>fr de en it</language> <!-- Language of content -->
+
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3</license>
+
+        <website>https://bitbucket.org/freebourg/xbmc-switzerland-radio</website>
+        <source>https://bitbucket.org/freebourg/xbmc-switzerland-radio</source>
+        <email>contact me on bitbucket dot org</email>
+    </extension>
+</addon>

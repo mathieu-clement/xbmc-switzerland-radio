@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- NOTE: The lang tag is ignored at the moment.
+Use 2-letter code. Multiple languages can be specified
+by separating them with a single space. 
+
+Always prefer AAC+ streams. At only 96 kbit/s they provide
+a better quality than 128 kbit/s MP3.
+
+Use the direct stream URL and not the playlist file
+(m3u, pls, ram, asx).
+-->
+
+<!-- TODO Add station thumbnail and big logo -->
+
+<!-- TODO Stations to be added:
+    (For some the link may be hidden in the website
+     and for others you may need agressive sniffing
+     method, especially if they use RTMP.)
+    => By the way, the RTS is broadcasting TV on the
+    Web but I couldn't sniff the stream. Any idea?
+
+    * YesFM
+    * Voxinox 1 & 2
+    * WRS (World Radio Switzerland)
+    * NRJ Léman
+    * Moutain Radio Verbier
+
+-->
+
+<stations>
+
+<station>
+    <name>RTS - La 1ère</name>
+    <lang>fr</lang>
+    <stream>http://broadcast.infomaniak.ch/rsr-la1ere-high.aac</stream>
+</station>
+
+<station>
+    <name>RTS - Espace 2</name>
+    <lang>fr</lang>
+    <stream>http://broadcast.infomaniak.ch/rsr-espace2-high.aac</stream>
+</station>
+
+<station>
+    <name>RTS - Couleur 3</name>
+    <lang>fr</lang>
+    <stream>http://broadcast.infomaniak.ch/rsr-couleur3-high.aac</stream>
+</station>
+
+<station>
+    <name>RTS - Option Musique</name>
+    <lang>fr</lang>
+    <stream>http://broadcast.infomaniak.ch/rsr-optionmusique-high.aac</stream>
+</station>
+
+<station>
+    <name>AlpRadio</name>
+    <lang>fr de</lang>
+    <stream>http://alpradio-aac.stream2net.eu:8140</stream>
+</station>
+
+<station>
+    <name>FC Sion Radio</name>
+    <lang>fr</lang>
+    <stream>http://fcsion-aac.stream2net.eu:8230</stream>
+</station>
+
+<station>
+    <name>Fréquence Banane</name>
+    <lang>fr</lang>
+    <stream>http://fbpc5.frequencebanane.ch:8001/</stream>
+</station>
+
+<station>
+    <name>Génération FM</name>
+    <lang>fr</lang>
+    <stream>http://generation.ice.infomaniak.ch/generationfm.mp3</stream>
+</station>
+
+<station>
+    <name>Vibration Pop / Rock</name>
+    <lang>fr</lang>
+    <stream>http://vibrationpoprock.stream2net.eu:8030</stream>
+</station>
+
+<station>
+    <name>Vibration Classic Hits</name>
+    <lang>fr</lang>
+    <stream>http://vibrationclassic80-aac.stream2net.eu:8110</stream>
+</station>
+
+<station>
+    <name>Vibration (108 FM)</name>
+    <lang>fr</lang>
+    <stream>http://vibration-aac.stream2net.eu:8040</stream>
+</station>
+
+<station>
+    <name>DJ Buzz</name>
+    <lang>fr</lang>
+    <stream>http://djbuzz.stream2net.eu:8020</stream>
+</station>
+
+<station>
+    <name>Vibration Soft Hits</name>
+    <lang>fr</lang>
+    <stream>http://vibrationsofthits.stream2net.eu:8380</stream>
+</station>
+
+<station>
+    <name>Radio Ouistiti</name>
+    <lang>fr</lang>
+    <stream>http://ouistiti-aac.stream2net.eu:8100/</stream>
+</station>
+
+<station>
+    <name>RTN</name>
+    <lang>fr</lang>
+    <stream>http://broadcast.infomaniak.net/rtn-high.mp3</stream>
+</station>
+
+<station>
+    <name>RJB</name>
+    <lang>fr</lang>
+    <stream>http://broadcast.infomaniak.net/rjb-high.mp3</stream>
+</station>
+
+<station>
+    <name>BNJ</name>
+    <lang>fr</lang>
+    <stream>http://broadcast.infomaniak.net/bnj-high.mp3</stream>
+</station>
+
+<station>
+    <name>Rhone FM</name>
+    <lang>fr</lang>
+    <stream>http://rhonefm.ice.infomaniak.ch:80/rhonefm-high.aac</stream>
+</station>
+
+<station>
+    <name>Rouge FM</name>
+    <lang>fr</lang>
+    <stream>http://rougefm.ice.infomaniak.ch:80/rougefm-high</stream>
+</station>
+
+<station>
+    <name>Radio Swiss Pop</name>
+    <lang>fr de it en</lang>
+    <stream>http://www.radioswisspop.ch/live/aacp.m3u</stream>
+</station>
+
+<station>
+    <name>Radio Swiss Jazz</name>
+    <lang>fr de it en</lang>
+    <stream>http://www.radioswissjazz.ch/live/aacp.m3u</stream>
+</station>
+
+<station>
+    <name>Radio Swiss Classic</name>
+    <lang>fr de it en</lang>
+    <stream>http://www.radiosuisseclassique.ch/live/aacp.m3u</stream>
+</station>
+
+<station>
+    <name>Framboase</name>
+    <lang>fr</lang>
+    <stream>http://framboase.ice.infomaniak.ch/framboase-128.mp3</stream>
+</station>
+
+<station>
+    <name>Radio Fribourg</name>
+    <lang>fr</lang>
+    <stream>http://radiofribourg.ice.infomaniak.ch:80/radiofribourg-high</stream>
+</station>
+
+<station>
+    <name>Radio Freiburg</name>
+    <lang>de</lang>
+    <stream>http://radiofreiburg.ice.infomaniak.ch:80/radiofreiburg-high</stream>
+</station>
+
+<station>
+    <name>Radio Chablais</name>
+    <lang>fr</lang>
+    <stream>http://broadcast.infomaniak.ch/radiochablais-high.aac.m3u</stream>
+</station>
+
+<station>
+    <name>One FM</name>
+    <lang>fr</lang>
+    <stream>http://onefm.ice.infomaniak.ch:80/onefm-high.aac</stream>
+</station>
+
+<station>
+    <name>RaBe</name>
+    <lang>de</lang>
+    <stream>http://stream.rabe.ch:8000/livestream/rabe-mid.mp3</stream>
+</station>
+
+<station>
+    <name>Radio Bern1</name>
+    <lang>de</lang>
+    <stream>http://www.radiobern1.ch/webstream.mp3</stream>
+</station>
+
+<station>
+    <name>Lausanne FM</name>
+    <lang>fr</lang>
+    <stream>http://lausannefm.ice.infomaniak.ch/playlists/lausannefm-high.mp3.pls</stream>
+</station>
+
+<station>
+    <name>LuNe FM</name>
+    <lang>fr</lang>
+    <stream>http://www.lune.fm/livefiles/lunefm-high.m3u</stream>
+</station>
+
+<station>
+    <name>SRF 1</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/m/drs1/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF 2 Kultur</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/m/drs2/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF 3</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/m/drs3/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF 4 News</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/m/drs4news/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF 1 Aargau Solothurn</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/m/regi_ag_so/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF 1 Bern Freiburg Wallis</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/regi_be_fr_vs/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF 1 Ostschweiz</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/regi_ost/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF 1 Zentralschweiz</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/regi_zentr/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF 1 Zürich Schaffhausen</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/regi_zh_sh/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF Virus</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/m/drsvirus/mp3_128</stream>
+</station>
+
+<station>
+    <name>SRF Musikwelle</name>
+    <lang>de</lang>
+    <stream>http://stream.srg-ssr.ch/m/drsmw/mp3_128</stream>
+</station>
+
+<station>
+    <name>RSI Rete Uno</name>
+    <lang>it</lang>
+    <stream>http://stream.srg-ssr.ch/m/reteuno/mp3_128</stream>
+</station>
+
+<station>
+    <name>RSI Rete Due</name>
+    <lang>it</lang>
+    <stream>http://stream.srg-ssr.ch/m/retedue/mp3_128</stream>
+</station>
+
+<station>
+    <name>RSI Rete Tre</name>
+    <lang>it</lang>
+    <stream>http://stream.srg-ssr.ch/m/retetre/mp3_128</stream>
+</station>
+
+</stations>
